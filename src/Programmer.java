@@ -10,7 +10,7 @@ public class Programmer extends Employee{
     }
     @Override
     double calculateSalary() {
-        return workingHours * workingHours;
+        return workingHours * hourlyRate;
     }
 
     @Override
